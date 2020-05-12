@@ -161,4 +161,9 @@
         C-297.156539,0.363960295 -299.941007,0 -303,0
         Z
     </string>
+    <!-- Enable live display -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- Use live display for temperature control-->
+    <bool name="config_nightDisplayAvailable">false</bool>
 </resources>
