@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_twolip.mk
+    $(LOCAL_DIR)/superior_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_twolip-user \
-    superior_twolip-userdebug \
-    superior_twolip-eng
+    superior_tulip-user \
+    superior_tulip-userdebug \
+    superior_tulip-eng
