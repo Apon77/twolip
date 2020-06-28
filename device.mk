@@ -59,6 +59,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Recorder
+PRODUCT_PACKAGES += \
+    KimciRecorder
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
