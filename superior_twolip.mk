@@ -25,9 +25,15 @@ $(call inherit-product, vendor/superior/config/common.mk)
 # Inherit from twolip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Launcher
+TARGET_LAUNCHER := lawnchair
+
 # Maintainer prop
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.superior.maintainer=KhalakuzzamanApon
+    ro.superior.maintainer=Khalakuzzaman Apon
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := twolip
